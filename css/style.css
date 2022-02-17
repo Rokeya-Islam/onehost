@@ -1,0 +1,521 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    margin-top: 95px;
+}
+
+/* common classes starts */
+.main-header {
+    font-size: 120px;
+}
+
+.main-header2 {
+    font-size: 120px;
+}
+
+.main-header3 {
+    font-size: 120px;
+}
+
+.main-header4 {
+    font-size: 80px;
+    color: #3d5c5c;
+}
+.main-header5{
+    font-size: 40px;
+    color: #3d5c5c;
+}
+.btn-primary-c {
+    color: #fff;
+    background-color: #007acc;
+    border-color: #99d6ff;
+}
+
+.btn-pricing {
+    background-color: #248f24;
+    color: #fff;
+}
+.btn-search-one{
+    background-color: #0099cc;
+    color: #fff;
+}
+.btn-search-one:hover{
+    background-color: #0086b3;
+    color: #e6f9ff;
+}
+.text-pink {
+    background-color: #e60073;
+}
+
+.text-platinum {
+    color: #800055;
+}
+.basic-header{
+    color: #3d5c5c;
+}
+/* common classes ends */
+
+.overlay {
+    opacity: 0.8;
+    background: #207dff;
+
+}
+
+
+/* nav starts */
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    opacity: 0.8;
+    background: #fff;
+}
+
+.nav-item {
+    font-size: 22px;
+    padding-right: 22px;
+}
+
+/* nav ends */
+
+
+/* carousel starts */
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url('../img/img4.jpg');
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url('../img/img3.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url('../img/adults-brainstorming-business-1595385.jpg');
+    background-size: cover;
+}
+
+/* carousle ends */
+
+/* search domain section starts */
+.search-domain-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* search domain section ends */
+
+/* pricing section starts */
+.pricing-slogan {
+    margin-bottom: 40px;
+    margin-top: -40px;
+    color: #527a7a;
+}
+
+.amount-price {
+    font-size: 50px;
+    color: #595959;
+}
+
+/* pricing section ends */
+
+/* service section starts */
+#homely-atmosphere-section {
+    padding: 50px;
+}
+.cs-image{
+    margin-top: 50px;
+}
+/* service section ends */
+
+/* Epsita emis code starts  (about-section)*/
+/* line 1, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 1, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+    .latest_new_area {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* line 1, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+    .latest_new_area {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+/* line 12, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news {
+    padding-bottom: 30px;
+}
+
+/* line 14, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .thumb {
+    overflow: hidden;
+}
+
+/* line 16, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .thumb a {
+    display: block;
+}
+
+/* line 18, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .thumb a img {
+    width: 100%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* line 25, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content {
+    margin-top: 35px;
+}
+
+/* line 28, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content .news_meta a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* line 32, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content .news_meta a:hover {
+    color: #4D4D4D;
+}
+
+/* line 35, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content .news_meta a span {
+    color: #00D363;
+}
+
+/* line 37, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content .news_meta a span:hover {
+    color: #00D363;
+}
+
+/* line 43, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content h3 {
+    font-size: 24px;
+    color: #2E004B;
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+
+/* line 48, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content h3 a {
+    color: #2E004B;
+}
+
+/* line 50, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content h3 a:hover {
+    color: #2E004B;
+}
+
+/* line 55, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news .news_content .news_info {
+    font-size: 16px;
+    color: #727272;
+}
+
+/* line 63, C:/Users/SPN Graphics/Desktop/cl sep/HTML/scss/_news.scss */
+.latest_new_area .single_news:hover .thumb a img {
+    width: 100%;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/* Epsita emis code ends */
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " ("attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " ("attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

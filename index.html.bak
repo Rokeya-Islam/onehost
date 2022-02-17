@@ -1,0 +1,387 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ONEHOST</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="home" class="bg-light">
+    <!-- Nav starts -->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo1.png" width="50" alt="" class="img-fluid" id="logo">
+                <h3 class="d-inline align-middle">OneHost</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT US </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">PRICING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">SERVICE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACTS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav ends -->
+
+    <!-- Carousel starts -->
+    <section class="overlay">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                            <h2 class="main-header"><span style="color: #0099ff;">ONE</span>HOST</h2>
+                            <h4 class="slogan">Welcome to OneHost. One Stop Web Hosting Solution</h4>
+                            <a href="" class="btn btn-primary-c btn-lg button">OUR SERVICES</a>
+                            <a href="" class="btn btn-outline-info btn-lg button">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                            <h2 class="main-header2">ALL IN <span style="color: #0099ff;">ONE</span></h2>
+                            <h4 class="slogan2">Welcome to OneHost. One Stop Web Hosting Solution</h4>
+                            <a href="" class="btn btn-primary-c btn-lg">OUR SERVICES</a>
+                            <a href="" class="btn btn-outline-info btn-lg">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block text-center mb-5">
+                            <h2 class="main-header3"><span style="color: #0099ff;">TOP</span> SUPPORT</h2>
+                            <h4 class="text-pink slogan3">Our Most Helpfull Support Staff Ever 24/7. Contact Us Now</h4>
+                            <a href="" class="btn btn-primary-c btn-lg">OUR SERVICES</a>
+                            <a href="" class="btn btn-outline-info btn-lg">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- Carousel ends -->
+
+    <!-- search domain section starts -->
+    <section class=" search-domain-section py-5">
+        <div class="container">
+            <h2 class="text-center py-4 main-header5">Take your business online in 10 minutes</h2>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-lg"
+                        placeholder="Enter your desired domain name">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-search-one btn-lg btn-block">Search Domain</button>
+                </div>
+            </div>
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-md-4"><img src="img/d1.PNG" alt="">$7.00</div>
+                    <div class="col-md-4"><img src="img/d3.PNG" alt="">$1.50</div>
+                    <div class="col-md-4"><img src="img/d2.PNG" alt="">$10.99</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- search domain section ends -->
+
+    <!-- latest_new_area_start //about-->
+    <div class="latest_new_area" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center">
+                        <h6 class="main-header4">
+                            WE ARE ONEHOST
+                        </h6>
+                        <p class="py-3">OneHost was founded on January, 2009. We offer Premium Web Hosting , Reseller
+                            Hosting and
+                            Virtual Private Server solutions brought to you by premium hardware. Our main intentions is
+                            delivering enterprise level solutions at affordable prices. If you're thinking of moving
+                            from another host to us and find it hard to transfer all your files over, no worries, as
+                            we'll do this for you free! All you have to do is sit back, relax and wait for your site to
+                            be up while our technicians do the transfers - We care for all our clients.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-xl-4 col-md-6 col-lg-4" id="about_us_1">
+                    <div class="single_news">
+                        <div class="thumb">
+                            <a href="#">
+                                <img src="img/1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="news_content">
+
+                            <h3><a href="#">High Performance</a></h3>
+                            <p class="news_info">Unrivaled speed, uptime, and scalability make Pantheon’s high
+                                performance hosting platform the best place to host Drupal and WordPress sites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4" id="about_us_2">
+                    <div class="single_news">
+                        <div class="thumb">
+                            <a href="#">
+                                <img src="img/2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="news_content">
+                            <h3><a href="#">Traffic Booster</a></h3>
+                            <p class="news_info">Traffic Booster's comprehensive scan checks your website for many SEO
+                                factors and policies that affect your website ranking, including keywords, broken links,
+                                page titles and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-lg-4" id="about_us_3">
+                    <div class="single_news">
+                        <div class="thumb">
+                            <a href="#">
+                                <img src="img/3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="news_content">
+                            <h3><a href="#">Reliable Hardware</a></h3>
+                            <p class="news_info">We have a blazing fast web hosting solution perfect for you! Whether
+                                you have a brand new blog or a popular business site, we've got you covered! Whether
+                                you've never run a website before or are a professional developer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- latest_new_area_end //about -->
+
+
+
+    <!-- pricing section starts -->
+    <section id="pricing">
+        <h1 class="text-center main-header4">OUR PRICING</h1>
+        <h4 class="text-center pricing-slogan">Tailored plans and pricing suits your needs</h4>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="text-info">Basic</h4>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title amount-price">$9.99</h4>
+                            <h6>/Month</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>1 GB Storage Space
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>10 GB Monthly Bandwidth
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>10 Sub-domains
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>25 Email Accounts
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>24/7 Support
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-pricing btn-block mt-2">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="text-info">Silver</h4>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title amount-price">$29.99</h4>
+                            <h6>/Month</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>5 GB Storage Space
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>20 GB Monthly Bandwidth
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>15 Sub-domains
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>30 Email Accounts
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>24/7 Support
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-pricing btn-block mt-2">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="text-danger">Gold</h4>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title amount-price">$49.99</h4>
+                            <h6>/Month</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>20 GB Storage Space
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>Unlimited Monthly Bandwidth
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>20 Sub-domains
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>40 Email Accounts
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>24/7 Support
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-pricing btn-block mt-2">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h2 class="text-platinum">Platinum</h4>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title amount-price">$69.99</h4>
+                            <h6>/Month</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>50 GB Storage Space
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>Unlimited Monthly Bandwidth
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>50 Sub-domains
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>100 Email Accounts
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="fa fa-check mr-2"></i>24/7 Support
+                                </li>
+                            </ul>
+                            <a href="#" class="btn btn-pricing btn-block mt-2">Get Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing section ends-->
+
+    <!-- Service section starts -->
+    <section id="service" class="py-5">
+        <h1 class="text-center main-header4">ALL PLANS INCLUDE</h1>
+        <h1 class="text-center basic-header">Get a Time Machine For your WEBSITE</h1>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6" id="service-image1">
+                    <a href="#"><img src="img/cs1.jpg" class="img-fluid cs-image" alt=""></a>
+                </div>
+                <div class="col-lg-6 text-center service-details1" id="homely-atmosphere-section">
+                    <h2 class="basic-header">24/7 Service</h2>
+                    <p class="">Our expert representatives are available to assist you 24/7/365. No issue is too big or
+                        too small!</p>
+                    <a href="#" class="btn btn-danger">Start Chat Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-lg-6 text-center service-details2" id="homely-atmosphere-section">
+                    <h2 class="basic-header">Daily Automatic Website Backups</h2>
+                    <p class="">Let CodeGuard worry about backing up your site while you focus on your business. Our
+                        website monitoring service offers the best cloud website backup services to keep your site and
+                        your business safe.</p>
+                </div>
+                <div class="col-lg-6" id="service-image2">
+                    <a href="#"><img src="img/img12.jpg" class="img-fluid cs-image" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6" id="service-image3">
+                    <a href="#"><img src="img/img7 - Copy.jpg" class="img-fluid cs-image" alt=""></a>
+                </div>
+                <div class="col-lg-6 text-center service-details3" id="homely-atmosphere-section">
+                    <h2 class="basic-header">Notification Of Changes</h2>
+                    <p class="">Receive email notifications for any unauthorized changes. Our website change protection
+                        allows you to be notified as soon as an issue arises.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service section ends -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/navbar-fixed.js"></script>
+</body>
+
+</html>
